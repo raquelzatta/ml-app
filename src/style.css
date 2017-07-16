@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.topo{width:100%;}
+.topoCentraliza{width:80%;background-color:#FF0;margin:auto; text-align:center; position:relative; height:46px;}
+.topoContainer{width:77%; margin:auto; text-align:center; position:relative;padding-top:1%;}
+.logo{width:25px;height:20px; position:relative;float:left; margin-right:1%;}
+.campoPesquisa{/*width:92%; height:25px;*/position:relative; float:left;background-color:#FFF;}
+.buttonPesquisa{width:19px; height:18px; padding-top:2px;  position:relative;float:left; background-color:#faf3f3;  border:solid 1px #dadada;}
+.conteudo{background-color:#CCC; margin:auto; width:80%;  height:885px;}
+.conteudoCentraliza{width:80%;margin:auto; position:relative; font-family:Verdana, Geneva, sans-serif; font-size:14px;}
+.conteudoContainer{width:95%; margin:auto; background-color:#FFF; position:relative;}
+.imgProduto{position:relative; float:left;}
+.valor{position:relative;float:left;width:auto; margin-left:3%;font-size:16px;}
+.pValor{font-size:16px;margin:0px;}
+.imgProduto{position:relative; float:left; margin-left:2%;}
+.descricaoEsq{position:relative;float:right; width:25%; height:150px;}
+.descricaoDir{position:relative;float:left; width:50%; margin-left:3%; margin-top:4%; height:150px;}
+.pDescricaoEsq{ margin:0px; white-space: normal; }
+.pDescricaoDir{ margin:0px; white-space: normal; }
+.containerProduto{height:150px; padding-top: 6%; position:relative;float:left;background-color:#FFF;}
+.containerProdutoUltimoItem{height:150px; padding-top: 6%; padding-bottom:6%; position:relative;float:left;background-color:#FFF;}
+.LinkBottonProdutoItem {text-decoration:none;background-color:#06F;}
+.LinkBottonProdutoItem:hover{ background-color:#F00; color:#009; width:100%; height:30px; }
+.navegation{background-color:#CCC; position:relative; float:left; width:100%;}
+.produto{margin-top: 5px;position: relative;float: left;}
+.imgProdutoItem{position:relative; float:left;}
+.containerTxtProduto{position:relative; float:right; width:30%;}
+.pPrimeiroDescritivo{font-size:12px;}
+.pSegundoDescritivo{font-size:16px; font-weight:bold;}
+.pTerceiroDescritivo{font-size:28px; font-weight:bold;}
+.bottonProdutoItem{width:100%; height:30px; background-color:#06F;border-radius:5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+.pTerceiroDescritivo{color:#FFF;font-size:16px; text-align:center; padding-top:2%; margin:0px;}
+.descritivoProduto{position:relative;float:left; margin-top:85px;}
+.pTituloDescritivoProduto{font-size:16px; font-weight:bold;}
+.pDescritivoProdutoItem{font-size:14px;}
+.formCampoPesquisa{height:50px;}
