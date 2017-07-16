@@ -4,7 +4,7 @@ import $ from 'jquery';
 export class Produto extends Component{
 	render(){
 		return (
-		 <div className="produto">
+		 <div className="Produto">
     				 	<div className="imgProdutoItem"><img src="#" width="300" height="300"/></div>
         					<div className="containerTxtProduto">
         						<div className="primeiroDescritivo"><p className="pPrimeiroDescritivo">hhkljljlkmmn</p></div>
@@ -14,11 +14,11 @@ export class Produto extends Component{
                                     <div className="bottonProdutoItem"><p className="pTerceiroDescritivo">Comprar</p></div>
                                 </a>
         				</div>
-                     <div className="descritivoProduto">
-                     	<div className="tituloDescritivoProduto"><p className="pTituloDescritivoProduto">mmsvmvlmslvmlçsmsvlsmlm</p></div>
-                        <div className="descritivoProdutoItem"><p className="pDescritivoProdutoItem">vdsvdvdsklvndsvnjv ds v d v vdd v dv dijihihçhblb jhoscnj m v.d mnv m nnvndlvnndlnvldnvn cdklvldnvkldnvklnadklvnklndklvnkla ncdnlvnlnv\lsdnvl  cdnlnansvldnlvn kdldklkldvklnvlkndkvn</p></div>
-                     </div> 
-     				</div>
+                     	<div className="descritivoProduto">
+                     		<div className="tituloDescritivoProduto"><p className="pTituloDescritivoProduto">mmsvmvlmslvmlçsmsvlsmlm</p></div>
+                        	<div className="descritivoProdutoItem"><p className="pDescritivoProdutoItem">vdsvdvdsklvndsvnjv ds v d v vdd v dv dijihihçhblb jhoscnj m v.d mnv m nnvndlvnndlnvldnvn cdklvldnvkldnvklnadklvnklndklvnkla ncdnlvnlnv\lsdnvl  cdnlnansvldnlvn kdldklkldvklnvlkndkvn</p></div>
+                     	</div> 
+     	</div>
 		
 		)
 		
