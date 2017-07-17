@@ -20,7 +20,7 @@ export class ListaProduto extends Component{
 		});
 	}
 	
-	
+	                    
 			
 	render(){
 		return (
