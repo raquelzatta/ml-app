@@ -12,10 +12,10 @@ export class ListaProduto extends Component{
 	
 	componentDidMount(){
 		$.ajax({
-			url:"http://localhost:3001/produtos",
+			url:"http://localhost:3001/items",
 			dataType: 'json',
 			success:function(resposta){
-				this.setState({lista:resposta});
+				this.setState({lista:resposta.items});
 			}.bind(this)
 		});
 	}
