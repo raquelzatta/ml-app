@@ -21,7 +21,6 @@ class App extends Component {
             <div className="conteudoContainer">
                 <div className="navegation">l~l~çl</div>
                 <ListaProduto/>
-				<Produto/>
             </div>            
         </div>
      </div>
