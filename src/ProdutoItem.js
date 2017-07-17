@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
+import {Link} from 'react-router-dom'
 
 export class ProdutoItem extends Component{
 	
 	
 	render(){
 		return (
-                    <a style={{color:"#000"}} href={"/itens/" + this.props.produto.id + "/"}>
+                    <Link style={{color:"#000"}} to={"/items/" + this.props.produto.id + "/"}>
 					<div className="containerProduto">
                         
 						<div className="imgProduto"><img src={this.props.produto.picture} width="150" height="150"/></div>
@@ -16,7 +17,7 @@ export class ProdutoItem extends Component{
                         <div className="descricaoEsq"><p className="pDescricaoEsq">{this.props.produto.condition}</p></div>
                         <div className="descricaoDir"><p className="pDescricaoDir">{this.props.produto.title}Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p></div>                      
                     </div>
-					</a>                   
+					</Link>                   
 		
 		)
 		

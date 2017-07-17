@@ -18,12 +18,14 @@
 .descricaoDir{position:relative;float:left; width:50%; margin-left:3%; margin-top:4%; height:150px;}
 .pDescricaoEsq{ margin:0px; white-space: normal; }
 .pDescricaoDir{ margin:0px; white-space: normal; }
-.containerProduto{height:150px; padding-top: 6%; position:relative;float:left;background-color:#FFF;}
-.containerProdutoUltimoItem{height:150px; padding-top: 6%; padding-bottom:6%; position:relative;float:left;background-color:#FFF;}
+.containerProduto{height:150px; padding-top: 6%; position:relative;float:left;background-color:#FFF; padding-bottom: 2%;}
+.containerProdutoUltimoItem{height:150px; padding-top: 4%; padding-bottom:6%; position:relative;float:left;background-color:#FFF;}
 .LinkBottonProdutoItem {text-decoration:none;background-color:#06F;}
 .LinkBottonProdutoItem:hover{ background-color:#F00; color:#009; width:100%; height:30px; }
 .navegation{background-color:#CCC; position:relative; float:left; width:100%;}
-.produto{margin-top: 5px;position: relative;float: left;}
+.produto{margin-top: 5px;position: relative;float: left;    padding-top: 50px;
+    height: 543px;
+    background-color: white;}
 .imgProdutoItem{position:relative; float:left;}
 .containerTxtProduto{position:relative; float:right; width:30%;}
 .pPrimeiroDescritivo{font-size:12px;}

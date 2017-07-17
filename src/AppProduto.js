@@ -3,12 +3,11 @@ import logo from './logo.svg';
 import './style.css';
 import {Produto} from './Produto';
 import {Busca} from './Busca';
-import {ListaProduto} from './ListaProduto';
 
 
 
 
-class App extends Component {
+export class AppProduto extends Component {
 
 	
   render() {
@@ -25,7 +24,7 @@ class App extends Component {
         <div className="conteudoCentraliza">
             <div className="conteudoContainer">
                 <div className="navegation">&nbsp;</div>
-                <ListaProduto/>
+                <Produto/>
             </div>            
         </div>
      </div>
@@ -36,4 +35,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default AppProduto;
