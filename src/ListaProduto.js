@@ -19,6 +19,8 @@ export class ListaProduto extends Component{
 			}.bind(this)
 		});
 	}
+	
+	
 			
 	render(){
 		return (

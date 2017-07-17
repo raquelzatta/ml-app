@@ -2,6 +2,22 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 
 export class Produto extends Component{
+	
+	constructor(){
+		super();
+		this.state = {lista : []};
+	}
+	
+	componentDidMount(){
+		$.ajax({
+			url:"http://localhost:3001/produto/X1",
+			dataType: 'json',
+			success:function(produto){
+				this.setState({lista:produto});
+			}.bind(this)
+		});
+	}
+	
 	render(){
 		return (
 		 <div className="Produto">
